@@ -16,8 +16,10 @@
                                 title: "Scream Detection"
                                 elevation: 10
                                 right_action_items: [["alert-decagram", lambda x: app.show_alert_dialog()]]
+
                             BoxLayout:
                                 size_hint:(1,0.3)
+
                             BoxLayout:
                                 BoxLayout:
                                 BoxLayout:
@@ -33,15 +35,13 @@
                                                 ImageButton:
                                                     source:"resources/icons/microphone.png"
                                                     on_release:app.mainscreen_to_recscreen()
+
                                             BoxLayout:
                                                 size_hint:(1,0.4)
                                                 MDLabel:
                                                     text_size: self.size
                                                     halign: 'center'
                                                     valign:'top'
-
-
-
                                                     text:"Record Audio"
 
                                 BoxLayout:
@@ -59,18 +59,14 @@
                                                 ImageButton:
                                                     source:"resources/icons/database.png"
                                                     on_release:app.mainscreen_to_internalstoragescreen()
+
                                             BoxLayout:
                                                 size_hint:(1,0.4)
                                                 MDLabel:
                                                     text_size: self.size
                                                     halign: 'center'
                                                     valign:'top'
-
-
-
                                                     text:"Add From Storage"
-
-
 
 
                                 BoxLayout:
@@ -92,6 +88,7 @@
 
                                     elevation: 10
                                 Widget:
+
                             BoxLayout:
                                 orientation:"vertical"
                                 MDCard:
