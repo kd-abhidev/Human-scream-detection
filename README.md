@@ -84,6 +84,19 @@ Evaluation metrics can be found in the logs or generated via the test script aft
 
 ---
 
+## Academic Project
+
+This application was developed as part of an academic project.
+The system was designed and implemented collaboratively by the following team members.
+
+Abhidev K D, UI Development
+Arjun K M, Backend Development
+Athul N A, Machine Learning
+Aswin T, Integration and Data Processing
+Ajay S, Integration and Data Processing
+
+---
+
 ## 🎥 Examples
 
 Below are example outputs for scream and non-scream audio predictions:
