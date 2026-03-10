@@ -36,8 +36,8 @@ scream-detection/
 ## ⚙️ Installation
 
 1. Clone the repository:  
-   `git clone https://github.com/km-rjun/scream-detection.git`  
-   `cd scream-detection`
+   `https://github.com/kd-abhidev/Human-scream-detection.git`  
+   `cd Human-scream-detection`
 
 2. Create a virtual environment (optional but recommended):  
    `python -m venv venv`  
