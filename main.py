@@ -34,7 +34,6 @@ from kivy.uix.behaviors import ButtonBehavior
 
 class ImageButton(ButtonBehavior, Image):
     pass
-
 class MainWindow(BoxLayout):
     pass
 class HelpWindow(BoxLayout):
