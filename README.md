@@ -1,6 +1,18 @@
-# Scream Detection
+# Human Scream Detection | Audio Classification using Deep Learning
 
-Scream Detection is a machine learning project designed to identify and classify scream-like audio events from ambient sound recordings. It leverages deep learning models to distinguish between screams (positive) and non-scream sounds (negative), making it applicable for safety monitoring, surveillance, or emergency response systems.
+![ML](https://img.shields.io/badge/Machine%20Learning-Audio-blue)
+![DeepLearning](https://img.shields.io/badge/Deep%20Learning-CNN-orange)
+![Python](https://img.shields.io/badge/Python-Model-yellow)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+---
+## Project Overview
+
+Built a machine learning system to detect human scream sounds from audio data.
+
+The system processes audio files, extracts features like MFCC and spectrograms, and classifies sounds as scream or non scream using deep learning models.
+
+Designed for safety monitoring and alert based systems.
 
 ---
 
@@ -14,6 +26,11 @@ Scream Detection is a machine learning project designed to identify and classify
 - Simple file-based prediction pipeline  
 
 ---
+## Architecture
+
+```id="f6k2ps"
+Audio Input → Feature Extraction (MFCC, Spectrogram) → CNN Model → Classification Output (Scream / Non Scream)
+```
 
 ## 📁 Project Structure
 
@@ -47,6 +64,17 @@ scream-detection/
    `pip install -r requirements.txt`
 
 ---
+## Workflow
+
+1. Load audio dataset
+2. Extract MFCC and spectrogram features
+3. Train CNN model
+4. Save trained model
+5. Run inference on test audio
+6. Classify as scream or non scream
+
+---
+
 
 ## 🧪 Usage
 
@@ -110,3 +138,30 @@ Below are example outputs for scream and non-scream audio predictions:
 ![Negative Example](./examples/negative.gif)
 
 ---
+
+
+## Use Cases
+
+* Safety monitoring systems
+* Public surveillance
+* Emergency detection
+* Smart alert systems
+
+---
+
+## Challenges Solved
+
+* Processed raw audio into usable features
+* Tuned CNN model for better accuracy
+* Handled noise and non scream sounds
+* Built prediction pipeline for testing
+
+---
+
+## Future Improvements
+
+* Improve dataset size and diversity
+* Add real time streaming detection
+* Deploy as API service
+* Integrate with alert system
+
